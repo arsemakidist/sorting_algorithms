@@ -1,6 +1,6 @@
 #include "sort.h"
-/*
-*selection_sort- function that sorts using selection sort algorithm
+/**
+*election_sort- function that sorts using selection sort algorithm
 *
 *@array: array to be sorted
 *@size: size of the array
@@ -27,6 +27,5 @@ temp = array[i];
 array[i] = array[k];
 array[k] = temp;
 print_array(array, size);
-}
 }
 }
